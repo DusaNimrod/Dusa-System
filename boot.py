@@ -49,7 +49,7 @@ def boot_bios():
     main_menu()
 
 if __name__ == "__main__":
-    check_files()  # Check if BIOS.py and System.py exist
+    check_files()
     boot_animation()
     system_check()
     boot_bios()
